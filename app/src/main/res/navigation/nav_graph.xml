@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.wik4apps.navtutorial.HelpFragment"
+        android:label="Help Fragment"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.wik4apps.navtutorial.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.wik4apps.navtutorial.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+</navigation>
